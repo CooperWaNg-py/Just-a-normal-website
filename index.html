@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullscreen Image</title>
+    <style>
+        /* Remove margins and padding for the body */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevent scrolling */
+        }
+
+        /* Style the image */
+        img {
+            width: 100vw;  /* Make image width 100% of the viewport width */
+            height: 100vh; /* Make image height 100% of the viewport height */
+            object-fit: fit; /* Ensure the image covers the whole screen, maintaining aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <!-- Image tag to display your image -->
+    <img src="yaai.png" alt="Fullscreen Image">
+</body>
+</html>
